@@ -1,6 +1,6 @@
 {
   "name": "disable-cargo-drops-techs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Remove all Cargo drop technologies",
   "author": "MeteorSwarm",
   "homepage": "https://github.com/nicholasgower/disable-cargo-drops-techs",
