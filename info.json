@@ -4,12 +4,15 @@
   "title": "Remove all Cargo drop technologies",
   "author": "MeteorSwarm",
   "homepage": "https://github.com/nicholasgower/disable-cargo-drops-techs",
-  "description": "Removes all technologies that prevent cargo drops on particular planets. Designed with Cerys in mind, but other planets are intended to be compatible as well.",
+  "description": "Removes all technologies that prevent cargo drops on particular planets. Designed with Cerys and Roc's Hardcore in mind, but other planets are intended to be compatible as well.",
   "factorio_version": "2.0",
   "dependencies": [
     "base",
     "space-age",
     "PlanetsLib",
-    "? Cerys-Moon-of-Fulgora"
+    "? Cerys-Moon-of-Fulgora",
+    "? Rocs-Hardcore-Fulgora",
+    "? Rocs-Hardcore-Vulcanus",
+    "? Rocs-Hardcore-Gleba"
   ]
 }
