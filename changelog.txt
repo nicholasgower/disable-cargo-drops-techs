@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2025-04-29
+  Compatibility:
+    - Rewrote mod to increase compatibility with other mods. https://github.com/nicholasgower/disable-cargo-drops-techs/issues/1
+---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 2025-01-22
   Compatibility:
