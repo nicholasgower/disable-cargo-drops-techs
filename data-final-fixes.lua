@@ -37,9 +37,16 @@ local function delete_tech(deleted_tech,new_tech)
     end
 end
 
+local blacklist = {
+    "planetslib-rubia-cargo-drops"
+}
+
+-- for _,item in pairs(blacklist) do
+--     item = "planetslib-" .. item .. "-cargo-drops"
+-- end
 
 for key,tech in pairs(data.raw["technology"]) do 
-    if string.find(key,"-cargo-drops",1,true) then
+    if string.find(key,"-cargo-drops",1,true) and not rro.contains(blacklist,key)  then
         local discovery_name = string.gsub(string.gsub(tech.name,"planetslib","planet-discovery"),"%-cargo%-drops","")
         if not data.raw["technology"][discovery_name] then
             discovery_name = string.gsub(string.gsub(tech.name,"planetslib","moon-discovery"),"%-cargo%-drops","")
